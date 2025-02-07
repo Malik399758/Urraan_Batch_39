@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/assets_image.dart';
 import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/row_column.dart';
 import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/text_ui.dart';
 import 'package:flutter_urraan_online_batch_38_ui/page1.dart';
@@ -10,7 +11,8 @@ class FitnessApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:RowColumn(),
+      home:AssetsImage(),
+      // RowColumn(),
       //TextUi(),
       //Page1(),
     );
