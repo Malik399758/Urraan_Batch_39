@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/assets_image.dart';
-import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/listtile_buttons_ui.dart';
-import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/listview_ui.dart';
-import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/row_column.dart';
-import 'package:flutter_urraan_online_batch_38_ui/batch39_ui/text_ui.dart';
-import 'package:flutter_urraan_online_batch_38_ui/page1.dart';
+import 'package:flutter_urraan_online_batch_38_ui/shared_preferences_project/shared_preferences.dart';
 
 void main() => runApp(FitnessApp());
 
@@ -13,7 +8,8 @@ class FitnessApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:ListTileButtonsUi(),
+      home:SharedPreferencesProject(),
+      //ListTileButtonsUi(),
       //ListviewUi()
       //AssetsImage(),
       // RowColumn(),
